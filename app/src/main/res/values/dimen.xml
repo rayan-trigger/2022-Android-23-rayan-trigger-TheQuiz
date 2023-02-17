@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_margin">30dp</dimen>
+    <dimen name="marginHorizontal">50dp</dimen>
+    <dimen name="marginEnd">10dp</dimen>
+    <dimen name="marginStart">10dp</dimen>
+    <dimen name="marginBottom">10dp</dimen>
+    <dimen name="marginTop">10dp</dimen>
+    <dimen name="marginRight">10dp</dimen>
+    <dimen name="marginLeft">10dp</dimen>
+    <dimen name="margin">10dp</dimen>
+</resources>

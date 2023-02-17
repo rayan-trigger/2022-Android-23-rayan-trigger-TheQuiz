@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TheQuiz</string>
+    <string name="main_player1_label">Player1</string>
+    <string name="main_player2_label">Player2</string>
+    <string name="txt_bt_commencer">Start</string>
+    <string name="txt_bt_quitter">Quit</string>
+    <string name="txt_bt_rejouer">Play again</string>
+    <string name="about_menu_title">About</string>
+    <string name="help_menu_title">Help</string>
+    <string name="bt_playerAnswer">Cest vrai!</string>
+    <string name="parameter_title">Parameter</string>
+    <string name="setting_title">Paramètres de l\'application</string>
+    <string name="setting_interval">Interval de temps entre les questions</string>
+    <string name="setting_question_add">Ajout de question</string>
+    <string name="setting_question_add_one">Veuillez renseigner votre question</string>
+    <string name="setting_question_add_anwser">Veuillez renseigner la réponse</string>
+    <string name="rb_true">Vrai</string>
+    <string name="rb_false">Faux</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Models.SettingActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_title"
+        android:gravity="center"
+        android:layout_margin="@dimen/main_margin"
+        android:textSize="30sp"/>
+
+
+    <!--################################Séparateur fait maison##############################-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/marginTop"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"/>
+    </LinearLayout>
+    <!--################################Séparateur fait maison##############################-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_interval"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin"
+            android:textSize="20sp"/>
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/setting_interval"
+            android:value="2.0"
+            android:valueFrom="2.0"
+            android:valueTo="15.0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/marginTop">
+
+        <!--################################Séparateur fait maison##########################-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/marginTop"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"/>
+        </LinearLayout>
+        <!--################################Séparateur fait maison##########################-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_question_add"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/marginTop"
+            android:textSize="20sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/question_add_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_question_add_one"
+            android:gravity="center"
+            android:layout_margin="@dimen/marginTop"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/question_add_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_question_add_anwser"
+            android:layout_marginStart="@dimen/marginLeft">
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:checkedButton="@+id/radio_button_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginLeft">
+            <RadioButton
+                android:id="@+id/rb_true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/rb_true"/>
+            <RadioButton
+                android:id="@+id/rb_false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/rb_false"/>
+        </RadioGroup>
+
+    </LinearLayout>
+</LinearLayout>
